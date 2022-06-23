@@ -11,6 +11,13 @@ import Interfaces.Pago;
  * @author VICTOR
  */
 public class PagoPayPal implements Pago{
+    protected float monto;
+    protected String email;
+
+    public PagoPayPal(float monto, String email) {
+        this.monto = monto;
+        this.email = email;
+    }
     
     
     
@@ -19,7 +26,7 @@ public class PagoPayPal implements Pago{
     
     @Override
     public boolean realizarPago(float monto) {
-        return null;
+        return this.monto==monto;
     }
     
 }

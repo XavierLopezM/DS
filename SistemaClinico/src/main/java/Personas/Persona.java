@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Class;
+package Personas;
 
 import java.util.Date;
 
@@ -32,15 +32,15 @@ public class Persona {
     }
     
     public boolean logIn(){
-        
-        return false;
+        ///preguntar al sistema la contrasenia y usuario y compararar con una base de datos
+        return true;
         
     }
     
     
     public boolean logOut(){
-        
-        return false;
+       // si el usuario a entrado se puede cerrar, caso contrario hacer otro tipo de validaciones
+        return logIn()==true;
         
     }
         

@@ -4,6 +4,7 @@
  */
 package Class;
 
+import Personas.Doctor;
 import java.util.ArrayList;
 
 /**
@@ -18,6 +19,14 @@ public class AreaMedica {
     public AreaMedica(String especialidad, float costo) {
         this.especialidad = especialidad;
         this.costo = costo;
+    }
+
+    public String getEspecialidad() {
+        return especialidad;
+    }
+
+    public float getCosto() {
+        return costo;
     }
 
     

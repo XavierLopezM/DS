@@ -8,18 +8,13 @@ package Class;
  *
  * @author VICTOR
  */
-public class Administrador {
-    
-    
-    
-    public void  registrarUsuario(){
-        
-        
+public class PlanNutricional {
+    protected String descripcion;
+
+    public PlanNutricional(String descripcion) {
+        this.descripcion = descripcion;
     }
-    
-    public void asignarRol(Persona empleado){
-        
-    }
+
     
     
 }

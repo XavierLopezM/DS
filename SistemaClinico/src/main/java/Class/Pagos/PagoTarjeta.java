@@ -31,7 +31,7 @@ public class PagoTarjeta implements Pago{
     
     @Override
     public boolean realizarPago(float monto) {
-        return null;
+        return this.monto==monto;
     }
     
 }
